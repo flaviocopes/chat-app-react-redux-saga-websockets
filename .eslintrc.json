@@ -1,0 +1,51 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true,
+        "mocha": true
+    },
+    "extends": [
+        "airbnb"
+    ],
+    "rules": {
+        "semi": ["error", "never"],
+        "no-unused-vars": "error",
+        "comma-dangle": ["error", "never"],
+        "no-implicit-globals": "error",
+        "quotes": ["error", "single"],
+        "react/jsx-filename-extension": [
+            1,
+            {
+                "extensions": [
+                    ".js",
+                    ".jsx"
+                ]
+            }
+        ]
+        // "prefer-promise-reject-errors": "error"
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "arrowFunctions": true,
+            "blockBindings": true,
+            "classes": true,
+            "defaultParams": true,
+            "destructuring": true,
+            "forOf": true,
+            "generators": false,
+            "modules": true,
+            "objectLiteralComputedProperties": true,
+            "objectLiteralDuplicateProperties": false,
+            "objectLiteralShorthandMethods": true,
+            "objectLiteralShorthandProperties": true,
+            "spread": true,
+            "superInFunctions": true,
+            "templateStrings": true,
+            "restParams": true,
+            "jsx": true
+        }
+    }
+}
