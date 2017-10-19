@@ -1,5 +1,4 @@
 export const ADD_MESSAGE = 'ADD_MESSAGE'
 export const MESSAGE_RECEIVED = 'MESSAGE_RECEIVED'
 export const ADD_USER = 'ADD_USER'
-export const START_WEBSOCKET = 'START_WEBSOCKET'
 export const USERS_LIST = 'USERS_LIST'
