@@ -50,4 +50,7 @@ wss.on('connection', (ws) => {
       users
     }, ws)
   })
+  
+  ws.on('error', () => {});
+  
 })
